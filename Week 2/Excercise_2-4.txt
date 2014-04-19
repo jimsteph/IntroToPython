@@ -1,0 +1,4 @@
+1) 8 int
+2) 8.5 float
+3) 4.0 float
+4) 11 int
