@@ -7,4 +7,4 @@ else :
 	regHours = hours
 	overTime = 0
 pay = (regHours * rate) + (overTime * rate * 1.5)
-print "Pay: " + str(round(pay, 2))
+print round(pay, 2)
