@@ -1,5 +1,3 @@
-tot = 0.0
-cnt = 0
 maximum = None
 minimum = None
 while True:
@@ -7,7 +5,7 @@ while True:
     if val == 'done':
         break
     try:
-        val = float(val)
+        val = int(val)
         tot = tot + val
         cnt = cnt + 1
         if maximum == None or val > maximum:
@@ -15,5 +13,6 @@ while True:
         if minimum == None or val < minimum:
             minimum = val
     except:
-        print 'Invalid Data'
-print tot, cnt, maximum, minimum
+        print 'Invalid input'
+print "Maximum is", maximum
+print "Minimum is", minimum
